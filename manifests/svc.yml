@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: axion-svc
 spec:
+  type: LoadBalancer
   selector:
     app: axion-ui
   ports:
